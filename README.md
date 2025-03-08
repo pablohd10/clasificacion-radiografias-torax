@@ -1,13 +1,13 @@
 # Clasificacion de imágenes de radiografias de torax
 Este repositorio contiene el desarrollo y entrenamiento de dos modelos de clasificación basados en redes neuronales profundas (ResNet50) para la detección automática de enfermedades pulmonares a partir de imágenes de radiografías torácicas. Los modelos están diseñados para detectar casos de COVID-19 y neumonía bacteriana en imágenes médicas, con el objetivo de proporcionar una herramienta complementaria en el diagnóstico clínico.
 
-## Modelos desarrollados:
+### Modelos desarrollados:
 
 * Clasificador binario: Utiliza transfer learning con pesos preentrenados de DeepCOVID-XR, logrando un rendimiento destacado en la clasificación de pacientes con COVID-19 y neumonía bacteriana. El modelo alcanza una precisión del 98.30%, con una sensibilidad de 97.44%, lo que lo convierte en una herramienta prometedora para la detección temprana de estas enfermedades.
 
 * Clasificador multiclase: Este modelo es capaz de diferenciar entre COVID-19, neumonía bacteriana y sujetos sanos. Aunque obtiene un accuracy global del 96%, presenta limitaciones en la detección de la clase neumonía bacteriana, con una baja sensibilidad de 0.44, lo que indica una alta tasa de falsos negativos para esta clase en particular.
 
-## Características destacadas del proyecto:
+### Características destacadas del proyecto:
 
 * Uso de Transfer Learning: Se emplean modelos preentrenados (DeepCOVID-XR) para aprovechar representaciones de características aprendidas previamente y mejorar la precisión del modelo con un esfuerzo de entrenamiento reducido.
   
